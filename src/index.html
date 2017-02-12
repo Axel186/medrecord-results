@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="medrecordResults">
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>Blood pressure</h1>
+    </div>
+
+    <p>
+      Bellow you can find the graph with all the data. <br> 
+      Use graph's range to zoom in or zoom out.
+    </p>
+
+    <nav>
+      <ul class="nav nav-tabs">
+        <li role="presentation" id="home"><a href="/">Display By Date</a></li>
+        <li role="presentation" id="byMonth"><a href="#!/byMonth">Display By Month</a></li>
+      </ul>
+    </nav>
+
+    <main ng-view></main>
+  </div>
+
+</body>
+
+</html>
