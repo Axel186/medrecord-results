@@ -15,5 +15,12 @@ npm run bower
 
 1. Build `dist` folder:
 ```
-npm run dev
+npm run build
 ```
+
+1. Run the server to see the results:
+```
+npm run server
+```
+
+1. Enter to http://localhost:3000/
