@@ -7,6 +7,7 @@ Before you start let's prepare our project.
 
 * Set configuration file:
 ```
+npm install
 cp config.default.js config.js
 ```
 
