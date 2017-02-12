@@ -1,5 +1,7 @@
 # Result
 
+![alt text](demo.png "demo")
+
 ## Before you start
 Before you start let's prepare our project.
 
